@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:hint="Enter name"
+        android:gravity="center">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/bdaysearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search" />
+
+    <EditText
+        android:id="@+id/etbday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:hint="Birthday"
+        android:gravity="center"/>
+    
+    <EditText
+        android:id="@+id/etcellnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:hint="Cell Number"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/setreminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Reminder" />
+
+</LinearLayout>
+<!-- From: file:/D:/Android/Projects/RememberMe/app/src/main/res/layout/setreminder.xml -->

@@ -1,0 +1,156 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FriendViewerActivity" >
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageButton
+            android:id="@+id/imageButton_Viewer_CallButton"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/callicon" />
+
+        <ImageButton
+            android:id="@+id/imageButton__Viewer_SMSButton"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/smsicon" />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="40dp">
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name" />
+            
+           	<TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Relation" />
+
+           	<TextView
+           	    android:id="@+id/textView3"
+           	    android:layout_width="wrap_content"
+           	    android:layout_height="wrap_content"
+           	    android:text="Birth Date" />
+
+           	<TextView
+           	    android:id="@+id/textView4"
+           	    android:layout_width="wrap_content"
+           	    android:layout_height="wrap_content"
+           	    android:text="Cell No.:" />
+
+           	<TextView
+           	    android:id="@+id/textView5"
+           	    android:layout_width="wrap_content"
+           	    android:layout_height="wrap_content"
+           	    android:text="Email:" />
+
+           	<TextView
+           	    android:id="@+id/textView6"
+           	    android:layout_width="wrap_content"
+           	    android:layout_height="wrap_content"
+           	    android:text="Address" />
+            
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp">
+           	
+            <TextView
+                android:id="@+id/textView_Viewer_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name" />
+            
+           	<TextView
+                android:id="@+id/textView_Viewer_Relation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Relation" />
+
+           	<TextView
+           	    android:id="@+id/textView_Viewer_BirthDay"
+           	    android:layout_width="wrap_content"
+           	    android:layout_height="wrap_content"
+           	    android:text="Birth Date" />
+
+           	<TextView
+           	    android:id="@+id/textView_Viewer_Cell"
+           	    android:layout_width="wrap_content"
+           	    android:layout_height="wrap_content"
+           	    android:text="Cell No.:" />
+
+           	<TextView
+           	    android:id="@+id/textView_Viewer_Email"
+           	    android:layout_width="wrap_content"
+           	    android:layout_height="wrap_content"
+           	    android:text="Email:" />
+
+           	<TextView
+           	    android:id="@+id/textView_Viewer_Address"
+           	    android:layout_width="wrap_content"
+           	    android:layout_height="wrap_content"
+           	    android:text="Address" />
+
+            
+        </LinearLayout>        
+        
+    </LinearLayout>
+    
+   	<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+   		<ImageButton
+   		    android:id="@+id/imageButton_Viewer_DeleteButton"
+   		    android:layout_weight="1"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:background="@null"
+   		    android:src="@drawable/deletefriendicon" />
+
+   		<ImageButton
+   		    android:id="@+id/imageButton_Viewer_EditButton"
+   		    android:layout_weight="1"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:background="@null"
+   		    android:src="@drawable/editfriendicon" />
+        
+    </LinearLayout>
+
+    
+
+</LinearLayout>

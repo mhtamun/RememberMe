@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+   
+	<LinearLayout 
+	    android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+    	android:layout_weight="2"
+    	android:orientation="horizontal">
+    <EditText
+        android:id="@+id/etsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:hint="Enter Name"
+        android:ems="10" >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/bsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search" />
+    </LinearLayout>
+   
+	<ListView
+        android:id="@+id/listView_FriendList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+         >
+
+    </ListView>
+	
+
+</LinearLayout>
